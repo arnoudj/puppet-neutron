@@ -155,7 +155,7 @@ class neutron::params {
     $vpnaas_agent_package = 'neutron-vpn-agent'
     $vpnaas_agent_service = 'neutron-vpn-agent'
 
-    $openswan_package     = 'openswan'
+    $openswan_package     = 'strongswan'
     $libreswan_package    = false
 
     $metadata_agent_package = 'neutron-metadata-agent'
